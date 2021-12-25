@@ -1,0 +1,16 @@
+
+		.wrapper2{ margin: auto; padding: 20px; background: #D8E3E7; margin-top: 20px;}
+		h3{color: #D8E3E7;padding: 10px; background: #126E82; margin-bottom: 5px; text-align: center; }
+		table{width: 840px; background: #126E82; border: 1px solid;margin-top: 20px;}
+		td{color: #D8E3E7; padding: 5px;}
+		th{color: #D8E3E7;}
+		input[type="nama"]{width: 325px; padding: 10px; border-radius: 5px; border: 1px solid D8E3E7; margin: 10px 0;}
+		input[type="email"]{width: 325px; padding: 10px; border-radius: 5px; border: 1px solid D8E3E7; margin: 10px 0;}
+		input[type="nim"]{width: 325px; padding: 10px; border-radius: 5px; border: 1px solid D8E3E7; margin: 10px 0;}
+
+		select{width: 112px; padding: 10px; border-radius: 5px; border: 1px solid D8E3E7; margin: 10px 0;height: 50px;}
+
+		.syarat{margin-top: 10px;}
+		.syarat a{color: #FFB6C1}
+
+		button[type="submit"]{width: 100px; padding: 10px; border-radius: 5px; color: #126E82; background: #D8E3E7; border: 1px solid green; font-size: 20px; font-weight: bold; margin: 10px 0;}

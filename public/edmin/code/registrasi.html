@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form dan Table HTML CSS</title>
+	<link rel="stylesheet" type="text/css" href="C:/Users/DELL/Downloads/html-css-form-master/html-css-form-master/style2.css">
+</head>
+<body>
+	<div class="wrapper">
+		<h3>FORM TEMPLATE</h3>
+		<form action="{{url('form')}}" method='post'>
+			<table>
+				<div class="form-group"></div>
+					<tr>
+						<td>
+							NAMA
+						</td>
+						<td>
+							:
+						</td>
+						<td>
+							<input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan Nama Anda...">
+						</td>
+					</tr>
+				</div>
+				<div class="form-group">
+				<tr>
+					<td>
+						NIM
+					</td>
+					<td>
+						:
+					</td>
+					<td>
+						<input type="text" class="form-control" id="nim" name="nim" placeholder="Masukkan NIM Anda...">
+					</td>
+				</tr>
+				</div>
+				<div class="form-group">
+				<tr>
+					<td>
+						Email
+					</td>
+					<td>
+						:
+					</td>
+					<td>
+						<input type="email" class="form-control" id="email" name="email" placeholder="Masukkan email Anda...">
+					</td>
+				</tr>
+				</div>
+				<div class = "form-group">
+				<tr>
+					<td>
+						<label for="gender">Gender</label>
+					</td>
+					<td>
+						:
+					</td>
+					<td>
+					<select name="jeniskelamin" id="jeniskelamin">
+						<option value=""></option>
+						<option value="A"> Pria </option>
+						<option value="B"> Wanita </option>
+					</select> 
+				</td>
+				</tr>
+				<tr>
+					<td colspan="3" align="center">
+						<button type="submit" class="btn btn-primary">Simpan</butto
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
