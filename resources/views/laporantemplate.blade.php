@@ -6,7 +6,7 @@
 @section('konten')
 
 	<div class="wrapper2">
-		<h3>FORM TEMPLATE</h3>
+		<h3>FORM</h3>
 		<form action="{{url('konten2')}}" method='post'>
             @csrf
 			<table>
